@@ -18,10 +18,10 @@
 		88A23B3F1714FA91003DCF02 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A23B3E1714FA91003DCF02 /* Default-568h@2x.png */; };
 		88A23B421714FA91003DCF02 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A23B401714FA91003DCF02 /* MainStoryboard_iPhone.storyboard */; };
 		88A23B451714FA91003DCF02 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A23B431714FA91003DCF02 /* MainStoryboard_iPad.storyboard */; };
-		88A23B481714FA91003DCF02 /* SWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A23B471714FA91003DCF02 /* SWViewController.m */; };
-		88A23B501714FB26003DCF02 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A23B4F1714FB26003DCF02 /* SWTableViewCell.m */; };
 		88A23B531714FD52003DCF02 /* SWDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A23B521714FD52003DCF02 /* SWDemoViewController.m */; };
 		88A23B5617150687003DCF02 /* SWTableViewDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A23B5517150687003DCF02 /* SWTableViewDemoCell.m */; };
+		88C26B68171CA9B700B02DDB /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C26B65171CA97900B02DDB /* SWTableViewCell.m */; };
+		88C26B69171CA9B700B02DDB /* SWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C26B67171CA97900B02DDB /* SWViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +40,14 @@
 		88A23B3E1714FA91003DCF02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		88A23B411714FA91003DCF02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		88A23B441714FA91003DCF02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		88A23B461714FA91003DCF02 /* SWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWViewController.h; sourceTree = "<group>"; };
-		88A23B471714FA91003DCF02 /* SWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWViewController.m; sourceTree = "<group>"; };
-		88A23B4E1714FB26003DCF02 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
-		88A23B4F1714FB26003DCF02 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
 		88A23B511714FD52003DCF02 /* SWDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDemoViewController.h; sourceTree = "<group>"; };
 		88A23B521714FD52003DCF02 /* SWDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDemoViewController.m; sourceTree = "<group>"; };
 		88A23B5417150687003DCF02 /* SWTableViewDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewDemoCell.h; sourceTree = "<group>"; };
 		88A23B5517150687003DCF02 /* SWTableViewDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewDemoCell.m; sourceTree = "<group>"; };
+		88C26B64171CA97900B02DDB /* SWTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWBase/SWTableViewCell.h; sourceTree = "<group>"; };
+		88C26B65171CA97900B02DDB /* SWTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWBase/SWTableViewCell.m; sourceTree = "<group>"; };
+		88C26B66171CA97900B02DDB /* SWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWViewController.h; path = SWBase/SWViewController.h; sourceTree = "<group>"; };
+		88C26B67171CA97900B02DDB /* SWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SWViewController.m; path = SWBase/SWViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +125,10 @@
 		88A23B571715068E003DCF02 /* SWBase */ = {
 			isa = PBXGroup;
 			children = (
-				88A23B461714FA91003DCF02 /* SWViewController.h */,
-				88A23B471714FA91003DCF02 /* SWViewController.m */,
-				88A23B4E1714FB26003DCF02 /* SWTableViewCell.h */,
-				88A23B4F1714FB26003DCF02 /* SWTableViewCell.m */,
+				88C26B64171CA97900B02DDB /* SWTableViewCell.h */,
+				88C26B65171CA97900B02DDB /* SWTableViewCell.m */,
+				88C26B66171CA97900B02DDB /* SWViewController.h */,
+				88C26B67171CA97900B02DDB /* SWViewController.m */,
 			);
 			name = SWBase;
 			sourceTree = "<group>";
@@ -201,10 +201,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C26B68171CA9B700B02DDB /* SWTableViewCell.m in Sources */,
+				88C26B69171CA9B700B02DDB /* SWViewController.m in Sources */,
 				88A23B351714FA91003DCF02 /* main.m in Sources */,
 				88A23B391714FA91003DCF02 /* SWAppDelegate.m in Sources */,
-				88A23B481714FA91003DCF02 /* SWViewController.m in Sources */,
-				88A23B501714FB26003DCF02 /* SWTableViewCell.m in Sources */,
 				88A23B531714FD52003DCF02 /* SWDemoViewController.m in Sources */,
 				88A23B5617150687003DCF02 /* SWTableViewDemoCell.m in Sources */,
 			);
@@ -339,6 +339,7 @@
 				88A23B4D1714FA91003DCF02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

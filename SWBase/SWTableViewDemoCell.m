@@ -12,7 +12,7 @@
 
 + (CGFloat)heightForItem:(id)item
 {
-    return 100.0;
+    return 44.0;
 }
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
@@ -30,8 +30,8 @@
 - (void)prepareUIWithItem:(id)item
 {
     self.textLabel.text = (NSString *)item;
-    self.textLabel.font = [UIFont fontWithName:@"Avenir Next" size:80.0];
-    self.textLabel.textColor = [UIColor purpleColor];
+    self.textLabel.font = [UIFont fontWithName:@"Avenir Next" size:20.0];
+    self.textLabel.textColor = [UIColor blueColor];
 }
 
 @end
